@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #EEE;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	max-width: 1000px;
+	background-color: #E4F9F5;
+	margin: 0 auto;
+	padding: 20px;
+}
+header{
+
+}
+.profile-image{
+	width: 110px;
+	height: 130px;
+	border: 3px solid white;
+	border-collapse: 50%;
+	float: left;
+}
+.header-bio{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #526573;
+}
+.header-contact{
+	
+	float: right;
+	padding: 30px;
+}
+.header-contact a{
+	text-decoration: none;
+	color: #526573;
+	font-weight: bold;
+}
+.header-contact a:hover{
+	text-decoration: underline;
+	color: tomato;	
+}
+.div-clear{
+	clear: both;
+}
+hr{
+	border: solid black 3px;
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+
+}
+
+/* Career summary start*/
+#carrer-summary{
+
+}
+.content{
+	margin-bottom: 30px;
+
+}
+.left-div{
+	width: 30%;
+	float: left;
+}
+.right-div{
+	width: 70%;
+	float: left;
+}
+.common-hr{
+	border:solid black 1px;
+	border-bottom: none;
+	width: 100%;
+	margin: 20px auto;
+}
+.right-div b {
+  color: #526573;
+}
+/* work experience start*/
+#work-experience{
+
+}
+/* education start*/
+#education{
+
+}
+/* language start*/
+#language{
+
+}
+.languages{
+	margin-left: 18px;
+}
+.lang-ul1{
+	width:30%; 
+    float:left; 
+	display: inline-block;
+	list-style: none;
+}
+.lang-ul2{
+	width:20%; 
+	float:left; 
+	display: inline-block;
+	list-style: none;
+}
+
+.lang-ul1 li::before {
+	content: "\25AA"; 
+	color: #526573;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+.lang-ul2 li::before {
+	content: "\25AA"; 
+	color: #526573;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+.lang-ul3 li{
+	display: table-row;
+}
+.lang-ul3 li b{
+	display: table-cell;
+	padding-right: 1em;
+}
+/* certification start*/
+#cerfication{
+
+}
+/*other skill*/
+#other-skills{
+
+}
+.lang-ul4{
+	list-style: none;
+}
+.lang-ul4 li::before {
+	content: "\25AA"; 
+	color: #526573;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+/*personal information*/
+#personal-information{
+
+}
+/*footer start*/
+.bottom-container{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+
+}
+.bottom-container a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+.bottom-container p{
+	color: white;
+	margin-top: 20px;
+}
